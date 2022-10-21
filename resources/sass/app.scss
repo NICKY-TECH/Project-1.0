@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.status:hover,.delete:hover,.edit:hover{
+    cursor: pointer;
+
+}
+
+.status{
+    font-weight: bold;
+}
+
+button i{
+    border: none;
+}
+
+.empty{
+    font-size: 1.5em;
+}
+
+.task-modal-error{
+    font-weight: bold;
+    font-size: 1.2em;
+}
